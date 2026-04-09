@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Marketing</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input {
+      padding: 8px;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section style="background: blue; color: white;">
+  <h1>Grow Your Business</h1>
+  <p>We provide digital marketing services</p>
+  <button onclick="showMessage()">Get Started</button>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2>Our Services</h2>
+
+  <div>
+    <h3>SEO</h3>
+    <p>Rank your website higher</p>
+  </div>
+
+  <div>
+    <h3>Social Media</h3>
+    <p>Grow your audience</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section style="background: lightgray;">
+  <h2>About Us</h2>
+  <p>We are a team of digital marketers helping businesses grow online.</p>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <h2>Testimonials</h2>
+  <p>"Amazing service!"</p>
+</section>
+
+<!-- CONTACT -->
+<section style="background: lightgray;">
+  <h2>Contact</h2>
+
+  <input type="text" id="name" placeholder="Your Name"><br><br>
+  <input type="email" id="email" placeholder="Your Email"><br><br>
+  <button onclick="submitForm()">Send</button>
+</section>
+
+<!-- JAVASCRIPT -->
+<script>
+
+  // Hero button function
+  function showMessage() {
+    alert("Welcome! Let's grow your business 🚀");
+  }
+
+  // Contact form function
+  function submitForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+
+    if (name === "" || email === "") {
+      alert("Please fill all fields!");
+    } else {
+      alert("Thank you " + name + "! We will contact you soon.");
+    }
+  }
+
+</script>
+
+</body>
+</html>

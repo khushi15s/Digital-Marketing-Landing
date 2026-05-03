@@ -25,6 +25,10 @@ A modern and responsive landing page for a digital marketing startup, built usin
 
 ## 📸 Preview
 <img width="1334" height="630" alt="image" src="https://github.com/user-attachments/assets/913920a0-958b-4a2e-99bd-dfcf5abd1233" />
+<img width="1330" height="630" alt="image" src="https://github.com/user-attachments/assets/f6d15bfd-7c76-41f1-9e37-eb67ab6d6783" />
+<img width="1310" height="623" alt="image" src="https://github.com/user-attachments/assets/de91fdf3-d961-40ce-8a77-fbc6470ae2e8" />
+
+
 
 
 ---
